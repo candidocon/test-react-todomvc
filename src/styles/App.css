@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.title {
+  margin-bottom: 0;
+}
+.counter {
+  font-weight: lighter;
+}
+.all-tasks {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 0.25rem;
+}
+.each-task {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+}
+.each-task:hover > .delete-btn {
+  visibility: visible;
+}
+.new-task-container {
+  margin-top: 1rem;
+}
+.new-task-input {
+  padding: 0.25rem;
+  border: 1px solid lightgray;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+.btn {
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+}
+.add-btn {
+  border: 1px solid lightgrey;
+}
+.add-btn:hover {
+  color: lightblue;
+}
+.delete-btn {
+  visibility: hidden;
+  border: none;
+}
+.delete-btn:hover {
+  color: crimson;
+}
+.task-text {
+  padding: 0.25rem;
+}
